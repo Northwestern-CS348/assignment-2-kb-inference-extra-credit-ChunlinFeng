@@ -8,6 +8,7 @@ class KBTest(unittest.TestCase):
     def setUp(self):
         # # Assert starter facts
         self.KB = KnowledgeBase([], [])
+
         
     def compare(self, expected, actual):
         elist = expected.split('\n')
